@@ -6,13 +6,11 @@
 -->
 <html>
 	<head>
-    <title>Abiodun Adedoyin</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="Welcome to the portfolio of Abiodun Adedoyin, a skilled Data Analyst and Pharmacist with expertise in Excel, Power BI, and SQL. Discover projects showcasing advanced data visualization, data-driven insights, and impactful dashboards." />
-    <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-
+		<title>Abiodun Adedoyin</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
 	<body class="is-preload">
 
 		<!-- Nav -->
@@ -23,8 +21,6 @@
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-				<!-- Dark Mode Toggle Button -->
-    <button id="dark-mode-toggle">Toggle Dark Mode</button>
 			</nav>
 
 		<!-- Home -->
@@ -38,7 +34,7 @@
     <header>
         <h1>Hey. I'm <strong>Abiodun Adedoyin</strong>.</h1>
     </header>
-    <p>Hello! I am Abiodun Adedoyin, a dedicated Pharmacist and Data Analyst passionate about transforming raw data into actionable insights. With a strong foundation in healthcare and analytical skills honed through experience, I specialize in data visualization and data-driven decision-making. Proficient in Excel, Power BI, and SQL, I excel at creating clear, impactful visualizations and dashboards that illuminate complex data patterns and drive strategic outcomes.</p>
+    <p>Hello! I am Abiodun Adedoyin, a dedicated Pharmacist and Data Analyst passionate about transforming raw data into actionable insights. With a strong foundation in healthcare and analytical skills honed through experience, I specialize in data visualization and data-driven decision-making. Proficient in Microsoft Excel, Power BI, and SQL, I excel at creating clear, impactful visualizations and dashboards that illuminate complex data patterns and drive strategic outcomes.</p>
     <p>My dual expertise in pharmacology and data analysis uniquely positions me to bridge gaps between technical data solutions and practical healthcare applications. I thrive in roles that challenge me to analyze, optimize, and communicate data in a way that leads to meaningful, informed decision-making. Whether I am building dynamic dashboards or generating ad-hoc reports, my goal is always to provide clarity and insight.</p>
     <a href="#portfolio" class="button large scrolly">My recent works...</a>
 </div>
@@ -150,27 +146,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-
-
-		<script>
-    const toggleButton = document.getElementById("dark-mode-toggle");
-
-    // Apply saved dark mode preference
-    if (localStorage.getItem("dark-mode") === "enabled") {
-        document.body.classList.add("dark-mode");
-    }
-
-    // Toggle dark mode
-    toggleButton.addEventListener("click", () => {
-        document.body.classList.toggle("dark-mode");
-        if (document.body.classList.contains("dark-mode")) {
-            localStorage.setItem("dark-mode", "enabled");
-        } else {
-            localStorage.setItem("dark-mode", "disabled");
-        }
-    });
-</script>
 
 	</body>
 </html>
