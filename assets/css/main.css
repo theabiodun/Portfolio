@@ -2443,3 +2443,30 @@ input, select, textarea {
 					}
 
 	}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode a {
+    color: #bb86fc;
+}
+
+/* Adjust specific elements in dark mode */
+.dark-mode #nav {
+    background-color: #333333;
+}
+
+.dark-mode .wrapper.style1 {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .button {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Additional elements as needed */
