@@ -32,16 +32,3 @@
 		});
 
 })(jQuery);
-
-function toggleReadMore() {
-    var moreText = document.getElementById("more-text");
-    var readMoreLink = document.getElementById("read-more-link");
-
-    if (moreText.style.display === "none") {
-        moreText.style.display = "inline";
-        readMoreLink.innerText = "Read less";
-    } else {
-        moreText.style.display = "none";
-        readMoreLink.innerText = "Read more";
-    }
-}
