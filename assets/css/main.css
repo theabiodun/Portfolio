@@ -2487,3 +2487,14 @@ html {
 body {
     padding-top: 4em; /* Matches the height of #nav */
 }
+
+
+/* Portfolio Image Hover Effect */
+.box.style2 .image.featured img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.box.style2 .image.featured img:hover {
+    transform: scale(1.05); /* Slightly zooms in the image */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
