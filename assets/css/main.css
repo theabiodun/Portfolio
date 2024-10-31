@@ -2451,3 +2451,7 @@ input, select, textarea {
     background-color: #333;
     z-index: 10;
 }
+
+p {
+    line-height: 1.6;
+}
