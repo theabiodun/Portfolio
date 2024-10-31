@@ -2515,3 +2515,6 @@ body {
     opacity: 0; /* Starts hidden */
     animation: fadeInUp 0.5s ease forwards; /* Animates once on load */
 }
+
+opacity: 0 !important;
+animation: fadeInUp 0.5s ease forwards !important;
