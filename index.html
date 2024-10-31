@@ -174,5 +174,30 @@ An Excel dashboard analyzing a company's 1,000 employees. It covers metrics like
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const portfolioItems = document.querySelectorAll(".box.style2");
+
+        function revealOnScroll() {
+            portfolioItems.forEach(item => {
+                const itemTop = item.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                // Reveal when the item is in view
+                if (itemTop < windowHeight - 50) {
+                    item.style.animationDelay = `${Array.from(portfolioItems).indexOf(item) * 0.1}s`; // Staggered animation
+                    item.style.opacity = 1;
+                }
+            });
+        }
+
+        // Trigger on scroll
+        window.addEventListener("scroll", revealOnScroll);
+        revealOnScroll(); // Initial check on page load
+    });
+</script>
+
+
 </body>
 </html>
